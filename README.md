@@ -12,3 +12,4 @@ Neural Style Transfer using OpenCV.
 6. After the download completes, just ensure that the folder structure for models is
    similar to the following (move the folders here and there if not):&nbsp;&nbsp;<br> > models<br> &nbsp;&nbsp;&nbsp;> eccv16<br> &nbsp;&nbsp;&nbsp;> instance_norm<br> &nbsp;&nbsp;&nbsp;> download.sh<br>
 7. python init.py
+8. Press 'n' to choose next style, 'p' to go to the previous style, and 'q' to quit.
