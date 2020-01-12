@@ -11,5 +11,4 @@ Neural Style Transfer using OpenCV.
 5. cd models && chmod +x download.sh && ./download.sh (This step is required to run only once)
 6. After the download completes, just ensure that the folder structure for models is
    similar to the following (move the folders here and there if not):&nbsp;&nbsp;<br> > models<br> &nbsp;&nbsp;&nbsp;> eccv16<br> &nbsp;&nbsp;&nbsp;> instance_norm<br> &nbsp;&nbsp;&nbsp;> download.sh<br>
-7. python init.py
-8. Press 'n' to choose next style, 'p' to go to the previous style, and 'q' to quit.
+7. i. (for webcam live video) python init.py <br>&nbsp;&nbsp;&nbsp; > Press 'n' to choose next style, 'p' to go to the previous style, and 'q' to quit.<br>ii. (for styling image) python init.py -i </path/to/image/> -md </path/to/actual/model(inside eccv16 or instance_norm.) <br>&nbsp;&nbsp;&nbsp; > Eg. python init.py -i /home/sample.png -md ./models/instance_norm/mosaic.t7
